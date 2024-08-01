@@ -10,8 +10,6 @@ RUN apt-get clean
 WORKDIR /app
 
 # Copy the application source code to the image
-COPY . /app
-
 # Build the application using Maven
 
 # Expose the necessary port
