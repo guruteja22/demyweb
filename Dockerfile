@@ -1,6 +1,5 @@
-FROM ubuntu:20.04
+FROM openjdk:17-jdk-slim
 RUN apt-get update
-RUN apt-get install  -y openjdk-17-jdk
 WORKDIR /app
 COPY . /app
 EXPOSE 8079
